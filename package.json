@@ -1,0 +1,21 @@
+{
+  "name": "realtimechatapp",
+  "version": "1.0.0",
+  "description": "chat app",
+  "main": "index.mjs", 
+  "scripts": {
+    "start": "node",
+    "dev": "nodemon ."
+  },
+  "repository": {
+    "type": "module",
+    "url": ""
+  },
+  "author": "wajahat ali",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "nodemon": "^3.0.3",
+    "socket.io": "^4.7.4"
+  }
+}
